@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 1.5em;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 600px;
+}
+
+#new-task-form > button {
+  height: 32px;
+  width: 52px;
+}
+
+#new-task-title {
+  height: 32px;
+  width: 320px;
+}
+
+#list {
+  list-style: none;
+}
