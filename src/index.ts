@@ -41,6 +41,8 @@ function addListItem(task: Task) {
   list?.append(item);
 }
 
+// function deleteCompletedTask();
+
 function saveTasks(): Task[] {
   localStorage.setItem('TASKS', JSON.stringify(tasks));
 }

@@ -34,3 +34,6 @@ h1 {
 #list {
   list-style: none;
 }
+#list > li {
+  margin: 10px 0px 0px 0px;
+}
